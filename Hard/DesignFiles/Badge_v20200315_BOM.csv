@@ -1,0 +1,135 @@
+#,RefDes,Value,Name,Manufacturer,Part Number (Digi-Key),Pattern,Datasheet
+1,B801,,BK-883,MPD,BK-883-ND,MPD_BK-883,http://datasheets.diptrace.com/con_batteries/bk-883.pdf
+2,C101,.1 uF X7R 0603,CAP 0.1 uF 0603,Yageo CC0603KPX7R7BB104,,CAP_0603,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+3,C102,.1 uF X7R 0603,CAP 0.1 uF 0603,Yageo CC0603KPX7R7BB104,,CAP_0603,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+4,C103,.1 uF X7R 0603,CAP 0.1 uF 0603,Yageo CC0603KPX7R7BB104,,CAP_0603,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+5,C104,.1 uF X7R 0603,CAP 0.1 uF 0603,Yageo CC0603KPX7R7BB104,,CAP_0603,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+6,C105,120 uF X7R 0805,120 uF X7R 0805,KEMET C0805C122K5RACTU,399-8018-1-ND,CAP_0805,
+7,C106,.1 uF X7R 0603,CAP 0.1 uF 0603,Yageo CC0603KPX7R7BB104,,CAP_0603,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+8,C201,.1 uF X7R 0603,CAP 0.1 uF 0603,Yageo CC0603KPX7R7BB104,,CAP_0603,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+9,C202,10uF 35V 4.3mm,10 uF 35V 4.3mm,Panasonic EEE-1CA100SR,PCE3878CT-ND,CAP_0805,"https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf"
+10,C203,.1 uF X7R 0603,CAP 0.1 uF 0603,Yageo CC0603KPX7R7BB104,,CAP_0603,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+11,C204,.1 uF X7R 0603,CAP 0.1 uF 0603,Yageo CC0603KPX7R7BB104,,CAP_0603,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+12,C205,10uF 35V 4.3mm,10 uF 35V 4.3mm,Panasonic EEE-1CA100SR,PCE3878CT-ND,CAP_0805,"https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf"
+13,C301,10 uF 10V X7R 0805,10 uF 10V X7R 0805,Murata GRM033R71A103KA01J,490-6143-1-ND,CAP_0805,
+14,C302,10 uF 10V X7R 0805,10 uF 10V X7R 0805,Murata GRM033R71A103KA01J,490-6143-1-ND,CAP_0805,
+15,C303,10 uF 10V X7R 0805,10 uF 10V X7R 0805,Murata GRM033R71A103KA01J,490-6143-1-ND,CAP_0805,
+16,C304,10 uF 10V X7R 0805,10 uF 10V X7R 0805,Murata GRM033R71A103KA01J,490-6143-1-ND,CAP_0805,
+17,C305,10 uF 10V X7R 0805,10 uF 10V X7R 0805,Murata GRM033R71A103KA01J,490-6143-1-ND,CAP_0805,
+18,C306,.1 uF X7R 0603,.1 uF X7R 0603,Yageo CC0603KPX7R7BB104,,CAP_0603,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+19,C307,.1 uF X7R 0603,.1 uF X7R 0603,Yageo CC0603KPX7R7BB104,,CAP_0603,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+20,C308,.1 uF X7R 0603,.1 uF X7R 0603,Yageo CC0603KPX7R7BB104,,CAP_0603,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+21,C309,.1 uF X7R 0603,.1 uF X7R 0603,Yageo CC0603KPX7R7BB104,,CAP_0603,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+22,C310,.1 uF X7R 0603,.1 uF X7R 0603,Yageo CC0603KPX7R7BB104,,CAP_0603,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+23,C311,22uF,22uF,Panasonic EEE-1VA2R2NR,PCE4295CT-ND,CAPAE430X550L180X65N_AD1,http://datasheets.diptrace.com/cap/aha.pdf
+24,C401,.1 uF X7R 0603,.1 uF X7R 0603,Yageo CC0603KPX7R7BB104,,CAP_0603,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+25,C402,.1 uF X7R 0603,.1 uF X7R 0603,Yageo CC0603KPX7R7BB104,,CAP_0603,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+26,C403,.1 uF X7R 0603,.1 uF X7R 0603,Yageo CC0603KPX7R7BB104,,CAP_0603,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+27,C404,.1 uF X7R 0603,.1 uF X7R 0603,Yageo CC0603KPX7R7BB104,,CAP_0603,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+28,C405,.1 uF X7R 0603,.1 uF X7R 0603,Yageo CC0603KPX7R7BB104,,CAP_0603,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+29,C501,.1 uF X7R 0603,CAP 0.1 uF 0603,Yageo CC0603KPX7R7BB104,,CAP_0603,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+30,C502,4.7 nF / 1kV Ceramic,4.7 nF / 1kV Ceramic,KEMET C0805C472KDRACTU,399-6738-1-ND,CAP_0805,
+31,C601,.1 uF X7R 0603,CAP 0.1 uF 0603,Yageo CC0603KPX7R7BB104,,CAP_0603,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+32,C602,.1 uF X7R 0603,CAP 0.1 uF 0603,Yageo CC0603KPX7R7BB104,,CAP_0603,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+33,C701,.1 uF X7R 0603,CAP 0.1 uF 0603,Yageo CC0603KPX7R7BB104,,CAP_0603,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+34,C702,6.8 nF X7R 0603,6.8 nF X7R 0603,Wurth 885012206013,732-7932-1-ND,CAP_0603,
+35,C703,120 nF X7R 0805,120 nF X7R 0805,KEMET C0805C122K5RACTU,399-8018-1-ND,CAP_0805,
+36,C704,.1 uF X7R 0603,.1 uF X7R 0603,Yageo CC0201KRX7R9BB101,311-1401-1-ND,CAP_0603,
+37,C801,.1 uF X7R 0603,CAP 0.1 uF 0603,Yageo CC0603KPX7R7BB104,,CAP_0603,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+38,C901,.1 uF X7R 0603,.1 uF X7R 0603,Yageo CC0603KPX7R7BB104,,CAP_0603,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+39,D301,,WS2812B,Adafruit,,WS2812B,https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+40,D302,,WS2812B,,,WS2812B,https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+41,D303,,WS2812B,,,WS2812B,https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+42,D304,,WS2812B,,,WS2812B,https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+43,D305,,WS2812B,,,WS2812B,https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+44,D306,,APA3010CGCK-GX,Kingbright,754-1580-6-ND,KINGBRIGHT_APA3010CGCK-GX,http://datasheets.diptrace.com/sensors_led/APA3010CGCK-GX.pdf
+45,D501,,"PRTR5V0U2X,215",Philips/NXP,1727-3884-6-ND,SOT143-4P190_230X110L30X43N,http://datasheets.diptrace.com/philips-nxp/PRTR5V0U2X.pdf
+46,J101,,901310125,Molex,WM8123-ND,MOLEX_HDR-2X5T_2.54X2.54_13X5,http://datasheets.diptrace.com/con_headers/901310126_sd.pdf
+47,J102,,713085406,Molex,0713085406-ND,MOLEX_HDR-2X3S_2.54X2.54_8X6,http://datasheets.diptrace.com/con_headers/015916502_sd.pdf
+48,J201,DNP,Bat Connector,,,BatIn,
+49,J501,,FTS-105-01-L-DV,Samtec,SAM1157-05-ND,SAMTEC_HDR-2X5S_1.27X1.27_6X6,http://datasheets.diptrace.com/con_headers/FTS-1XX-XX-XX-XX-XX-MKT.pdf
+50,J502,,548190572,Molex,WM17116DKR-ND,MOLEX_0548190572,http://datasheets.diptrace.com/con_usb/548190572_sd.pdf
+51,J901,,713085440,Molex,0713085440-ND,TE_HDR-2X20TH_2.54X2.54_50X15,http://datasheets.diptrace.com/con_headers/015916502_sd.pdf
+52,LS301,,AST-03008MR-R,Pui Audio,668-1136-ND,PUIAUDIO_AST-03008MR-R,http://datasheets.diptrace.com/speak_buzz_mic/AST-03008MR-R.pdf
+53,Q201,FDN304P,FDN304P,ON Semiconductor,FDN304PCT-ND,SSOT-3,https://www.onsemi.com/pub/Collateral/FDN304P-D.PDF
+54,Q202,FDN304P,FDN304P,ON Semiconductor,FDN304PCT-ND,SSOT-3,https://www.onsemi.com/pub/Collateral/FDN304P-D.PDF
+55,Q203,FDN304P,FDN304P,ON Semiconductor,FDN304PCT-ND,SSOT-3,https://www.onsemi.com/pub/Collateral/FDN304P-D.PDF
+56,Q204,FDN304P,FDN304P,ON Semiconductor,FDN304PCT-ND,SSOT-3,https://www.onsemi.com/pub/Collateral/FDN304P-D.PDF
+57,Q301,BSS138,BSS138LT1G,ON Semiconductor,BSS138LT1GOSDKR-ND,SOT23-3P95_240X110L43X44N,http://datasheets.diptrace.com/on_semi/bss138lt1-d.pdf
+58,R101,4.7k 0603,4.7k 0603,Yageo RC0603JR-074K7L,311-10KGRCT-ND,RES_0603,
+59,R102,4.7k 0603,4.7k 0603,Yageo RC0603JR-074K7L,311-10KGRCT-ND,RES_0603,
+60,R103,10k 0603,10k 0603,Yageo RC0603JR-0710KL,311-10KGRCT-ND,RES_0603,
+61,R201,1M 0603,1M 0603,YAGEO RC0603FR-071ML,311-1.00MHRCT-ND,RES_0603,
+62,R202,100k 0603,100k 0603,YAGEO RC0603JR-07100KL,311-100KGRCT-ND,RES_0603,
+63,R203,100k 0603,100k 0603,YAGEO RC0603JR-07100KL,311-100KGRCT-ND,RES_0603,
+64,R301,10k 0603,10k 0603,Yageo RC0603JR-0710KL,311-10KGRCT-ND,RES_0603,
+65,R302,10k 0603,RES 0603,,311-10KGRCT-ND,RES_0603,
+66,R303,22 Ohms 0603 0.1W,22 Ohms 0603 0.1W,TE Connectivity CRGCQ0603J22R,,RES_0603,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English
+67,R304,470 Ohm 0603,470 Ohm 0603,TE Connectivity CRGCQ0603J470R,A130089CT-ND,RES_0603,
+68,R401,12k 0603,12k 0603,Bourns RC0603JR-0712KL,311-12KGRCT-ND,RES_0603,
+69,R402,43k 0603,43k 0603,Yageo RC0603JR-0743KL,311-43KGRCT-ND,RES_0603,
+70,R403,12k 0603,12k 0603,Bourns RC0603JR-0712KL,311-12KGRCT-ND,RES_0603,
+71,R404,43k 0603,43k 0603,Yageo RC0603JR-0743KL,311-43KGRCT-ND,RES_0603,
+72,R405,12k 0603,12k 0603,Bourns RC0603JR-0712KL,311-12KGRCT-ND,RES_0603,
+73,R406,43k 0603,43k 0603,Yageo RC0603JR-0743KL,311-43KGRCT-ND,RES_0603,
+74,R407,12k 0603,12k 0603,Bourns RC0603JR-0712KL,311-12KGRCT-ND,RES_0603,
+75,R408,43k 0603,43k 0603,Yageo RC0603JR-0743KL,311-43KGRCT-ND,RES_0603,
+76,R409,12k 0603,12k 0603,Bourns RC0603JR-0712KL,311-12KGRCT-ND,RES_0603,
+77,R410,43k 0603,43k 0603,Yageo RC0603JR-0743KL,311-43KGRCT-ND,RES_0603,
+78,R501,10k 0603,RES 0603,Yageo RC0603JR-0710KL,311-10KGRCT-ND,RES_0603,
+79,R502,10k 0603,RES 0603,Yageo RC0603JR-0710KL,311-10KGRCT-ND,RES_0603,
+80,R503,1k 0603,RES 0603,,311-10KGRCT-ND,RES_0603,
+81,R504,1k 0603,1k 0603,,,RES_0603,
+82,R505,1MOhm 0603,RES 0603,TE Connectivity CRGCQ0603J1M0,A130109CT-ND,RES_0603,
+83,R701,10k 0603,RES 0603,Yageo RC0603JR-0710KL,311-10KGRCT-ND,RES_0603,
+84,R702,10k 0603,RES 0603,Yageo RC0603JR-0710KL,311-10KGRCT-ND,RES_0603,
+85,R801,10k 0603,RES 0603,Yageo RC0603JR-0710KL,311-10KGRCT-ND,RES_0603,
+86,R901,22 Ohms 0603 0.1W,22 Ohms 0603 0.1W,TE Connectivity CRGCQ0603J22R,,RES_0603,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English
+87,R902,22 Ohms 0603 0.1W,22 Ohms 0603 0.1W,TE Connectivity CRGCQ0603J22R,,RES_0603,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English
+88,R903,22 Ohms 0603 0.1W,22 Ohms 0603 0.1W,TE Connectivity CRGCQ0603J22R,,RES_0603,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English
+89,R904,22 Ohms 0603 0.1W,22 Ohms 0603 0.1W,TE Connectivity CRGCQ0603J22R,,RES_0603,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English
+90,S201,JS202011SCQN,JS202011SCQN,C&K,401-2002-2-ND,JS202011SCQN,https://dznh3ojzb2azq.cloudfront.net/products/Slide/JS/documents/datasheet.pdf
+91,S401,,B3FS-1000P,OMRON,SW423DKR-ND,OMRON_B3FS-1000P,http://datasheets.diptrace.com/switches/B3FS_1110.pdf
+92,S402,,B3FS-1000P,OMRON,SW423DKR-ND,OMRON_B3FS-1000P,http://datasheets.diptrace.com/switches/B3FS_1110.pdf
+93,S403,,B3FS-1000P,OMRON,SW423DKR-ND,OMRON_B3FS-1000P,http://datasheets.diptrace.com/switches/B3FS_1110.pdf
+94,S404,,B3FS-1000P,OMRON,SW423DKR-ND,OMRON_B3FS-1000P,http://datasheets.diptrace.com/switches/B3FS_1110.pdf
+95,S405,,B3FS-1000P,OMRON,SW423DKR-ND,OMRON_B3FS-1000P,http://datasheets.diptrace.com/switches/B3FS_1110.pdf
+96,TP_3V3,,TestPoint,,,TestPoint,
+97,TP_5V0,,TestPoint,,,TestPoint,
+98,TP_5VRegOut,,TestPoint,,,TestPoint,
+99,TP_ADDR_LED_HV,,TestPoint,,,TestPoint,
+100,TP_ADDR_LED_LV,,TestPoint,,,TestPoint,
+101,TP_FONT_~Select~,,TestPoint,,,TestPoint,
+102,TP_IMU_INT,,TestPoint,,,TestPoint,
+103,TP_IMU_~RST~,,TestPoint,,,TestPoint,
+104,TP_LCD_DC,,TestPoint,,,TestPoint,
+105,TP_LCD_~CS~,,TestPoint,,,TestPoint,
+106,TP_MEGA_~RST~,,TestPoint,,,TestPoint,
+107,TP_SAM_SWCLK,,TestPoint,,,TestPoint,
+108,TP_SAM_SWDIO,,TestPoint,,,TestPoint,
+109,TP_SAM_~RST~,,TestPoint,,,TestPoint,
+110,TP_SAMRX_MEGATX,,TestPoint,,,TestPoint,
+111,TP_SAMTX_MEGA_RX,,TestPoint,,,TestPoint,
+112,TP_SCL,,TestPoint,,,TestPoint,
+113,TP_SDA,,TestPoint,,,TestPoint,
+114,TP_SPI_CLK,,TestPoint,,,TestPoint,
+115,TP_SPI_MISO,,TestPoint,,,TestPoint,
+116,TP_SPI_MOSI,,TestPoint,,,TestPoint,
+117,TP_Switch_Battery,,TestPoint,,,TestPoint,
+118,TP_USB_ACTIVE,,TestPoint,,,TestPoint,
+119,TP_USB_VBUS,,TestPoint,,,TestPoint,
+120,TPS401,,TestPoint,,,TestPoint,
+121,TPS402,,TestPoint,,,TestPoint,
+122,TPS403,,TestPoint,,,TestPoint,
+123,TPS404,,TestPoint,,,TestPoint,
+124,TPS405,,TestPoint,,,TestPoint,
+125,U101,ATMega328P IC MCU 8BIT 32KB FLASH 32TQFP,ATMega328P-AU,ATMEGA328P-AU,,QFP32P80_900X900X120L60X37N,
+126,U201,MIC5219-3.3YM5-TR,MIC5219-3.3YM5-TR,Microchip,576-1281-6-ND,SOT23-5P95_280X145L45X37N,http://datasheets.diptrace.com/microchip/mic5219.pdf
+127,U202,MIC5219-5.0YM5-TR,MIC5219-5.0YM5-TR,Microchip,576-2770-6-ND,SOT23-5P95_280X145L45X37N,http://datasheets.diptrace.com/microchip/mic5219.pdf
+128,U501,,ATSAMD11C14A-SSNT,Atmel,ATSAMD11C14A-SSNTDKR-ND,SOIC14P127_864X599X174L83X41N,http://datasheets.diptrace.com/atmel/SAMD11.pdf
+129,U601,,BME280,Bosch-Sensortec,,BME280,
+130,U701,BNO055,BNO055,Bosch-Sensortec,828-1058-1-ND,PQFN28P50_505X385X118L47X25N,
+131,U801,,MCP79400-I/SN,Microchip,MCP79400-I/SN-ND,SOIC8P127_490X600X175L83X41N_AD4,http://datasheets.diptrace.com/microchip/20005009f.pdf
+132,Y101,32.768k Mems,SiT1533,SiTime,1473-1239-1-ND,SiTime Only SPL,
+133,Y701,32.768k Mems,SiT1533,SiTime,1473-1239-1-ND,SiTime Only SPL,
+134,Y801,32.768k Mems,SiT1533,SiTime,1473-1239-1-ND,SiTime Only SPL,

@@ -1,0 +1,228 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Timer:MCP7940N-xSN U801
+U 1 1 5EA69716
+P 5450 3300
+F 0 "U801" H 5200 3700 50  0000 C CNN
+F 1 "MCP7940N-xSN" H 5800 2950 50  0000 C CNN
+F 2 "" H 5450 3300 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf" H 5450 3300 50  0001 C CNN
+	1    5450 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y1
+U 1 1 5EA6A091
+P 6200 3300
+F 0 "Y1" V 6154 3431 50  0000 L CNN
+F 1 "32.768 kHz" V 6245 3431 50  0000 L CNN
+F 2 "Crystal:Crystal_AT310_D3.0mm_L10.0mm_Horizontal" H 6200 3300 50  0001 C CNN
+F 3 "~" H 6200 3300 50  0001 C CNN
+	1    6200 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5850 3200 5950 3200
+Wire Wire Line
+	5950 3200 5950 3050
+Wire Wire Line
+	5950 3050 6200 3050
+Wire Wire Line
+	6200 3050 6200 3150
+Wire Wire Line
+	5850 3400 5950 3400
+Wire Wire Line
+	5950 3400 5950 3550
+Wire Wire Line
+	5950 3550 6200 3550
+Wire Wire Line
+	6200 3550 6200 3450
+$Comp
+L Device:C C802
+U 1 1 5EA6B316
+P 7000 3050
+F 0 "C802" V 6748 3050 50  0000 C CNN
+F 1 "10p 100V C0G" V 6839 3050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7038 2900 50  0001 C CNN
+F 3 "~" H 7000 3050 50  0001 C CNN
+	1    7000 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C803
+U 1 1 5EA6C05E
+P 7000 3550
+F 0 "C803" V 6748 3550 50  0000 C CNN
+F 1 "10p 100V C0G" V 6839 3550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7038 3400 50  0001 C CNN
+F 3 "~" H 7000 3550 50  0001 C CNN
+	1    7000 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6850 3550 6200 3550
+Connection ~ 6200 3550
+Wire Wire Line
+	6200 3050 6850 3050
+Connection ~ 6200 3050
+Wire Wire Line
+	7150 3050 7300 3050
+Wire Wire Line
+	7300 3050 7300 3300
+Wire Wire Line
+	7300 3550 7150 3550
+$Comp
+L power:GND #PWR?
+U 1 1 5EA6C8F2
+P 7400 3300
+F 0 "#PWR?" H 7400 3050 50  0001 C CNN
+F 1 "GND" V 7405 3172 50  0000 R CNN
+F 2 "" H 7400 3300 50  0001 C CNN
+F 3 "" H 7400 3300 50  0001 C CNN
+	1    7400 3300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 3300 7300 3300
+Connection ~ 7300 3300
+Wire Wire Line
+	7300 3300 7300 3550
+$Comp
+L power:GND #PWR?
+U 1 1 5EA6D0B2
+P 5450 4000
+F 0 "#PWR?" H 5450 3750 50  0001 C CNN
+F 1 "GND" H 5455 3827 50  0000 C CNN
+F 2 "" H 5450 4000 50  0001 C CNN
+F 3 "" H 5450 4000 50  0001 C CNN
+	1    5450 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4000 5450 3700
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EA6DDE4
+P 5450 2200
+F 0 "#PWR?" H 5450 2050 50  0001 C CNN
+F 1 "+3V3" H 5465 2373 50  0000 C CNN
+F 2 "" H 5450 2200 50  0001 C CNN
+F 3 "" H 5450 2200 50  0001 C CNN
+	1    5450 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 2900 5450 2400
+$Comp
+L Device:Battery_Cell BT801
+U 1 1 5EA6E976
+P 5950 2600
+F 0 "BT801" H 6068 2696 50  0000 L CNN
+F 1 "Battery_Cell" H 6068 2605 50  0000 L CNN
+F 2 "" V 5950 2660 50  0001 C CNN
+F 3 "~" V 5950 2660 50  0001 C CNN
+	1    5950 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EA6F558
+P 5950 2700
+F 0 "#PWR?" H 5950 2450 50  0001 C CNN
+F 1 "GND" H 5955 2527 50  0000 C CNN
+F 2 "" H 5950 2700 50  0001 C CNN
+F 3 "" H 5950 2700 50  0001 C CNN
+	1    5950 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 2400 5550 2400
+Wire Wire Line
+	5550 2400 5550 2900
+$Comp
+L Device:R_US R801
+U 1 1 5EA6FD9E
+P 4750 2650
+F 0 "R801" H 4818 2696 50  0000 L CNN
+F 1 "10k" H 4818 2605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4790 2640 50  0001 C CNN
+F 3 "~" H 4750 2650 50  0001 C CNN
+	1    4750 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2500 4750 2400
+Wire Wire Line
+	4750 2400 5450 2400
+Connection ~ 5450 2400
+Wire Wire Line
+	5450 2400 5450 2200
+Wire Wire Line
+	4750 2800 4750 3400
+Wire Wire Line
+	4750 3400 5050 3400
+Text HLabel 4100 3200 0    50   BiDi ~ 0
+SDA
+Text HLabel 4100 3100 0    50   Input ~ 0
+SCL
+Text HLabel 4100 3400 0    50   3State ~ 0
+RTC_INT
+Wire Wire Line
+	4100 3400 4750 3400
+Connection ~ 4750 3400
+Wire Wire Line
+	5050 3200 4100 3200
+Wire Wire Line
+	4100 3100 5050 3100
+Text Notes 5850 4050 0    50   ~ 0
+I2C Address\n1101111x\n1010111x
+$Comp
+L Device:C C801
+U 1 1 5EA75881
+P 4100 2400
+F 0 "C801" H 3985 2354 50  0000 R CNN
+F 1 ".1u X7R" H 3985 2445 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4138 2250 50  0001 C CNN
+F 3 "~" H 4100 2400 50  0001 C CNN
+	1    4100 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EA76443
+P 4100 2200
+F 0 "#PWR?" H 4100 2050 50  0001 C CNN
+F 1 "+3V3" H 4115 2373 50  0000 C CNN
+F 2 "" H 4100 2200 50  0001 C CNN
+F 3 "" H 4100 2200 50  0001 C CNN
+	1    4100 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2200 4100 2250
+$Comp
+L power:GND #PWR?
+U 1 1 5EA76F38
+P 4100 2550
+F 0 "#PWR?" H 4100 2300 50  0001 C CNN
+F 1 "GND" H 4105 2377 50  0000 C CNN
+F 2 "" H 4100 2550 50  0001 C CNN
+F 3 "" H 4100 2550 50  0001 C CNN
+	1    4100 2550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
