@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 2 10
 Title ""
 Date "2020-04-01"
 Rev ""
@@ -37,7 +37,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 3300 5650 3300
 $Comp
-L pspice:C C4
+L Device:C C4
 U 1 1 5E8538DF
 P 8450 3100
 F 0 "C4" V 8135 3100 50  0000 C CNN
@@ -48,13 +48,13 @@ F 3 "~" H 8450 3100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8200 3100 7800 3100
+	8300 3100 7800 3100
 Connection ~ 7800 3100
 Wire Wire Line
-	8200 3400 7800 3400
+	8300 3400 7800 3400
 Connection ~ 7800 3400
 $Comp
-L pspice:C C3
+L Device:C C3
 U 1 1 5E85434C
 P 8450 3400
 F 0 "C3" V 8650 3400 50  0000 C CNN
@@ -65,11 +65,11 @@ F 3 "~" H 8450 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8700 3100 8900 3100
+	8600 3100 8900 3100
 Wire Wire Line
 	8900 3100 8900 3400
 Wire Wire Line
-	8900 3400 8700 3400
+	8900 3400 8600 3400
 $Comp
 L power:GND #PWR?
 U 1 1 5E857BE2
@@ -110,7 +110,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20w
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:C C103
+L Device:C C103
 U 1 1 5E863469
 P 4100 3300
 F 0 "C103" V 4000 3400 50  0000 L CNN
@@ -121,7 +121,7 @@ F 3 "~" H 4100 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:C C104
+L Device:C C104
 U 1 1 5E86478E
 P 3800 3600
 F 0 "C104" V 3700 3700 50  0000 L CNN
@@ -132,7 +132,7 @@ F 3 "~" H 3800 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:C C105
+L Device:C C105
 U 1 1 5E865390
 P 3500 3950
 F 0 "C105" V 3400 4050 50  0000 L CNN
@@ -143,7 +143,7 @@ F 3 "~" H 3500 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:C C106
+L Device:C C106
 U 1 1 5E865796
 P 3250 4250
 F 0 "C106" V 3150 4350 50  0000 L CNN
@@ -154,20 +154,15 @@ F 3 "~" H 3250 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 3400 3800 3350
-Wire Wire Line
 	3800 2800 3950 2800
 Wire Wire Line
-	4100 2800 4100 3050
-Connection ~ 3800 3350
+	4100 2800 4100 3150
 Wire Wire Line
-	3800 3350 3800 2800
-Wire Wire Line
-	4100 3550 4100 4050
+	4100 3450 4100 4050
 Wire Wire Line
 	4100 4050 3950 4050
 Wire Wire Line
-	3800 4050 3800 3850
+	3800 4050 3800 3750
 Wire Wire Line
 	3950 2800 3950 2150
 Wire Wire Line
@@ -199,22 +194,22 @@ F 3 "" H 5050 5450 50  0001 C CNN
 $EndComp
 Connection ~ 5050 5450
 Wire Wire Line
-	3500 4200 3500 5450
+	3500 4100 3500 5450
 Wire Wire Line
 	3500 5450 3950 5450
 Connection ~ 3950 5450
 Wire Wire Line
-	3250 4500 3250 5450
+	3250 4400 3250 5450
 Wire Wire Line
 	3250 5450 3500 5450
 Connection ~ 3500 5450
 Wire Wire Line
-	3500 3700 3500 2150
+	3500 3800 3500 2150
 Wire Wire Line
 	3500 2150 3950 2150
 Connection ~ 3950 2150
 Wire Wire Line
-	3250 4000 3250 2100
+	3250 4100 3250 2100
 Wire Wire Line
 	3250 2100 5150 2100
 Wire Wire Line
@@ -454,4 +449,6 @@ Wire Wire Line
 	7000 4900 5650 4900
 Wire Wire Line
 	5650 5000 7000 5000
+Wire Wire Line
+	3800 2800 3800 3450
 $EndSCHEMATC

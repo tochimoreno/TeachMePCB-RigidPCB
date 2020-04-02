@@ -1,0 +1,384 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 10 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J901
+U 1 1 5E93D066
+P 7800 4250
+F 0 "J901" H 7850 5367 50  0000 C CNN
+F 1 "Molex 0713085440" H 7850 5276 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical_SMD" H 7800 4250 50  0001 C CNN
+F 3 "~" H 7800 4250 50  0001 C CNN
+	1    7800 4250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E9410E6
+P 8250 3500
+F 0 "#PWR?" H 8250 3250 50  0001 C CNN
+F 1 "GND" H 8255 3327 50  0000 C CNN
+F 2 "" H 8250 3500 50  0001 C CNN
+F 3 "" H 8250 3500 50  0001 C CNN
+	1    8250 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 3500 8250 3350
+Wire Wire Line
+	8250 3350 8000 3350
+NoConn ~ 8000 4350
+NoConn ~ 8000 4250
+NoConn ~ 8000 4150
+NoConn ~ 8000 4050
+NoConn ~ 8000 3950
+NoConn ~ 8000 3850
+NoConn ~ 8000 3750
+NoConn ~ 8000 3650
+NoConn ~ 8000 3550
+NoConn ~ 8000 3450
+NoConn ~ 7500 4350
+NoConn ~ 7500 4250
+NoConn ~ 7500 4150
+NoConn ~ 7500 4050
+NoConn ~ 7500 3950
+NoConn ~ 7500 3850
+NoConn ~ 7500 3750
+NoConn ~ 7500 3650
+NoConn ~ 7500 3550
+NoConn ~ 7500 3450
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E942992
+P 7200 2850
+F 0 "#PWR?" H 7200 2700 50  0001 C CNN
+F 1 "+3V3" H 7215 3023 50  0000 C CNN
+F 2 "" H 7200 2850 50  0001 C CNN
+F 3 "" H 7200 2850 50  0001 C CNN
+	1    7200 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 3350 7200 3350
+Wire Wire Line
+	7200 3350 7200 2950
+$Comp
+L Device:C C901
+U 1 1 5E944230
+P 7750 2950
+F 0 "C901" V 7498 2950 50  0000 C CNN
+F 1 ".1u X7R" V 7589 2950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7788 2800 50  0001 C CNN
+F 3 "~" H 7750 2950 50  0001 C CNN
+	1    7750 2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7600 2950 7200 2950
+Connection ~ 7200 2950
+Wire Wire Line
+	7200 2950 7200 2850
+Wire Wire Line
+	7900 2950 8250 2950
+Wire Wire Line
+	8250 2950 8250 3350
+Connection ~ 8250 3350
+NoConn ~ 7500 4550
+NoConn ~ 7500 4750
+NoConn ~ 7500 5150
+NoConn ~ 8000 5250
+NoConn ~ 8000 5150
+NoConn ~ 8000 5050
+NoConn ~ 8000 4850
+$Comp
+L power:GND #PWR?
+U 1 1 5E94549C
+P 7200 5450
+F 0 "#PWR?" H 7200 5200 50  0001 C CNN
+F 1 "GND" H 7205 5277 50  0000 C CNN
+F 2 "" H 7200 5450 50  0001 C CNN
+F 3 "" H 7200 5450 50  0001 C CNN
+	1    7200 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 5450 7200 5250
+Wire Wire Line
+	7200 5250 7500 5250
+Wire Wire Line
+	8800 4950 8000 4950
+Wire Wire Line
+	8000 4650 8800 4650
+Wire Wire Line
+	8800 4550 8000 4550
+Wire Wire Line
+	8000 4450 8800 4450
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E9476FF
+P 8250 4250
+F 0 "#PWR?" H 8250 4100 50  0001 C CNN
+F 1 "+3V3" H 8265 4423 50  0000 C CNN
+F 2 "" H 8250 4250 50  0001 C CNN
+F 3 "" H 8250 4250 50  0001 C CNN
+	1    8250 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 4250 8250 4750
+Wire Wire Line
+	8250 4750 8000 4750
+Wire Wire Line
+	6800 4450 7500 4450
+Wire Wire Line
+	6800 4650 7400 4650
+Wire Wire Line
+	6800 5050 7500 5050
+Wire Wire Line
+	7500 4950 6800 4950
+Wire Wire Line
+	7500 4850 7400 4850
+Wire Wire Line
+	7400 4850 7400 4650
+Connection ~ 7400 4650
+Wire Wire Line
+	7400 4650 7500 4650
+Text Label 8400 4450 0    50   ~ 0
+LCD_nCS_R
+Text Label 8400 4550 0    50   ~ 0
+LCD_DC_R
+Text Label 8400 4650 0    50   ~ 0
+LCD_SPI_MOSI_R
+Text Label 8400 4950 0    50   ~ 0
+LCD_SPI_CLK_R
+Text Label 6800 4450 0    50   ~ 0
+LCD_SPI_CLK_R
+Text Label 6800 4650 0    50   ~ 0
+LCD_SPI_MISO_R
+Text Label 6800 4950 0    50   ~ 0
+LCD_SPI_MOSI_R
+Text Label 6800 5050 0    50   ~ 0
+LCD_FONT_nCS_R
+Text HLabel 3500 2150 0    50   BiDi ~ 0
+SPI_MISO
+$Comp
+L Connector:TestPoint TP_SPI_MISO
+U 1 1 5E94EE2E
+P 3850 2000
+F 0 "TP_SPI_MISO" H 3600 2200 50  0000 L CNN
+F 1 "TestPoint" H 3908 2027 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4050 2000 50  0001 C CNN
+F 3 "~" H 4050 2000 50  0001 C CNN
+	1    3850 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R904
+U 1 1 5E94F51C
+P 4250 2150
+F 0 "R904" V 4045 2150 50  0000 C CNN
+F 1 "22 Ohms 0.1W" V 4136 2150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4290 2140 50  0001 C CNN
+F 3 "~" H 4250 2150 50  0001 C CNN
+	1    4250 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 2150 3850 2150
+Wire Wire Line
+	3850 2150 3850 2000
+Wire Wire Line
+	3850 2150 3500 2150
+Connection ~ 3850 2150
+Wire Wire Line
+	4400 2150 5250 2150
+Text Label 4600 2150 0    50   ~ 0
+LCD_SPI_MISO_R
+Text HLabel 3500 2700 0    50   BiDi ~ 0
+LCD_FONT_SEL
+$Comp
+L Connector:TestPoint TP_LCD_FONT_SEL
+U 1 1 5E9557E7
+P 3850 2550
+F 0 "TP_LCD_FONT_SEL" H 3600 2750 50  0000 L CNN
+F 1 "TestPoint" H 3908 2577 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4050 2550 50  0001 C CNN
+F 3 "~" H 4050 2550 50  0001 C CNN
+	1    3850 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E9557F1
+P 4250 2700
+F 0 "R?" V 4045 2700 50  0000 C CNN
+F 1 "22 Ohms 0.1W" V 4136 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4290 2690 50  0001 C CNN
+F 3 "~" H 4250 2700 50  0001 C CNN
+	1    4250 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 2700 3850 2700
+Wire Wire Line
+	3850 2700 3850 2550
+Wire Wire Line
+	3850 2700 3500 2700
+Connection ~ 3850 2700
+Wire Wire Line
+	4400 2700 5250 2700
+Text HLabel 3500 3250 0    50   BiDi ~ 0
+SPI_CLK
+$Comp
+L Connector:TestPoint TP_SPI_CLK
+U 1 1 5E9583FB
+P 3850 3100
+F 0 "TP_SPI_CLK" H 3600 3300 50  0000 L CNN
+F 1 "TestPoint" H 3908 3127 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4050 3100 50  0001 C CNN
+F 3 "~" H 4050 3100 50  0001 C CNN
+	1    3850 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E958405
+P 4250 3250
+F 0 "R?" V 4045 3250 50  0000 C CNN
+F 1 "22 Ohms 0.1W" V 4136 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4290 3240 50  0001 C CNN
+F 3 "~" H 4250 3250 50  0001 C CNN
+	1    4250 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 3250 3850 3250
+Wire Wire Line
+	3850 3250 3850 3100
+Wire Wire Line
+	3850 3250 3500 3250
+Connection ~ 3850 3250
+Wire Wire Line
+	4400 3250 5250 3250
+Text HLabel 3500 3800 0    50   BiDi ~ 0
+SPI_MOSI
+$Comp
+L Connector:TestPoint TP_SPI_MOSI
+U 1 1 5E958416
+P 3850 3650
+F 0 "TP_SPI_MOSI" H 3600 3850 50  0000 L CNN
+F 1 "TestPoint" H 3908 3677 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4050 3650 50  0001 C CNN
+F 3 "~" H 4050 3650 50  0001 C CNN
+	1    3850 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E958420
+P 4250 3800
+F 0 "R?" V 4045 3800 50  0000 C CNN
+F 1 "22 Ohms 0.1W" V 4136 3800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4290 3790 50  0001 C CNN
+F 3 "~" H 4250 3800 50  0001 C CNN
+	1    4250 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 3800 3850 3800
+Wire Wire Line
+	3850 3800 3850 3650
+Wire Wire Line
+	3850 3800 3500 3800
+Connection ~ 3850 3800
+Wire Wire Line
+	4400 3800 5250 3800
+Text HLabel 3500 4350 0    50   BiDi ~ 0
+LCD_DC
+$Comp
+L Connector:TestPoint TP_LCD_DC
+U 1 1 5E95BF44
+P 3850 4200
+F 0 "TP_LCD_DC" H 3600 4400 50  0000 L CNN
+F 1 "TestPoint" H 3908 4227 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4050 4200 50  0001 C CNN
+F 3 "~" H 4050 4200 50  0001 C CNN
+	1    3850 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E95BF4E
+P 4250 4350
+F 0 "R?" V 4045 4350 50  0000 C CNN
+F 1 "22 Ohms 0.1W" V 4136 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4290 4340 50  0001 C CNN
+F 3 "~" H 4250 4350 50  0001 C CNN
+	1    4250 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 4350 3850 4350
+Wire Wire Line
+	3850 4350 3850 4200
+Wire Wire Line
+	3850 4350 3500 4350
+Connection ~ 3850 4350
+Wire Wire Line
+	4400 4350 5250 4350
+Text HLabel 3500 4900 0    50   BiDi ~ 0
+LCD_nCS
+$Comp
+L Connector:TestPoint TP_LCD_nCS
+U 1 1 5E95BF5F
+P 3850 4750
+F 0 "TP_LCD_nCS" H 3600 4950 50  0000 L CNN
+F 1 "TestPoint" H 3908 4777 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4050 4750 50  0001 C CNN
+F 3 "~" H 4050 4750 50  0001 C CNN
+	1    3850 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E95BF69
+P 4250 4900
+F 0 "R?" V 4045 4900 50  0000 C CNN
+F 1 "22 Ohms 0.1W" V 4136 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4290 4890 50  0001 C CNN
+F 3 "~" H 4250 4900 50  0001 C CNN
+	1    4250 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 4900 3850 4900
+Wire Wire Line
+	3850 4900 3850 4750
+Wire Wire Line
+	3850 4900 3500 4900
+Connection ~ 3850 4900
+Wire Wire Line
+	4400 4900 5250 4900
+Text Label 4600 2700 0    50   ~ 0
+LCD_FONT_nCS_R
+Text Label 4600 3250 0    50   ~ 0
+LCD_SPI_CLK_R
+Text Label 4600 3800 0    50   ~ 0
+LCD_SPI_MOSI_R
+Text Label 4600 4350 0    50   ~ 0
+LCD_DC_R
+Text Label 4600 4900 0    50   ~ 0
+LCD_nCS_R
+$EndSCHEMATC
